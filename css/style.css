@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.line{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.line div {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    margin: 2rem;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.lozenge {
+    transform: rotate(45deg);
+}
