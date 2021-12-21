@@ -27,3 +27,18 @@ html {
 .lozenge {
     transform: rotate(45deg);
 }
+
+#full, #empty {
+    width: 6rem;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: lightblue;
+}
